@@ -1,0 +1,7 @@
+setup.py
+snek.py
+snek3.egg-info/PKG-INFO
+snek3.egg-info/SOURCES.txt
+snek3.egg-info/dependency_links.txt
+snek3.egg-info/entry_points.txt
+snek3.egg-info/top_level.txt

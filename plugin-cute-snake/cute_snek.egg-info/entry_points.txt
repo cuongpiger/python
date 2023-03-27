@@ -1,0 +1,2 @@
+[snek_types]
+cute = cute_snek:cute_snek

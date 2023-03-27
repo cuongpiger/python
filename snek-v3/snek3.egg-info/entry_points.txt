@@ -1,2 +1,2 @@
 [console_scripts]
-snek = snek:main
+snek3 = snek:main
