@@ -1,0 +1,2 @@
+[console_scripts]
+snek2 = snek:main

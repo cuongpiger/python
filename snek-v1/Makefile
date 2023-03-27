@@ -1,5 +1,5 @@
 install-dev:
-	python setup.py develop
+	@pip install -e .
 
 run-snek-dev:
 	@snek
