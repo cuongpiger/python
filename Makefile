@@ -3,3 +3,6 @@ normal-run:
 
 filed-run:
 	@uwsgi --ini uwsgi.ini
+
+debug-run:
+	@python app.py
