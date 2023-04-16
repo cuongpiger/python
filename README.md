@@ -48,7 +48,7 @@
   ```
   ![](./img/02.png)
 
-- See the Jaeger UI to check the tracing results:
+- See the Jaeger UI to check the tracing results [http://localhost:16686](http://localhost:16686):
   - The result of `fastapi-jaeger` service: 
     ![](img/03.png)
   - The result of `fastapi-jaeger-server` service:
