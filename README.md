@@ -35,39 +35,39 @@
   ```
   ![](./img/01.png)
 
-  - Send the request to `fastapi-jaeger`:
+- Send the request to `fastapi-jaeger`:
+  ```bash
+  curl -X 'POST' \
+  'http://localhost:8000/client' \
+  -H 'Accept: application/json' \
+  -H 'Content-Type: application/json' \
+  -d '{
+    "userinfo": "Cloud Engineer at VNG",
+    "name": "Cuong. Duong Manh"
+  }'
+  ```
+  ![](./img/02.png)
+  * Other `curl` commands to test:
     ```bash
     curl -X 'POST' \
-    'http://localhost:8000/client' \
-    -H 'Accept: application/json' \
-    -H 'Content-Type: application/json' \
-    -d '{
-      "userinfo": "Cloud Engineer at VNG",
-      "name": "Cuong. Duong Manh"
-    }'
-    ```
-    * Other `curl` commands to test:
-      ```bash
-      curl -X 'POST' \
-        'http://localhost:8000/foobar' \
-        -H 'Accept: application/json' \
-        -H 'Content-Type: application/json' \
-        -d '{
-          "userinfo": "Cloud Engineer at VNG",
-          "name": "Cuong. Duong Manh"
-        }'
+      'http://localhost:8000/foobar' \
+      -H 'Accept: application/json' \
+      -H 'Content-Type: application/json' \
+      -d '{
+        "userinfo": "Cloud Engineer at VNG",
+        "name": "Cuong. Duong Manh"
+      }'
       
-      # or
-      curl -X 'POST' \
-        'http://localhost:8000/foobar2' \
-        -H 'Accept: application/json' \
-        -H 'Content-Type: application/json' \
-        -d '{
-          "userinfo": "Cloud Engineer at VNG",
-          "name": "Cuong. Duong Manh"
-        }'
-      ```
-    ![](./img/02.png)
+    # or
+    curl -X 'POST' \
+      'http://localhost:8000/foobar2' \
+      -H 'Accept: application/json' \
+      -H 'Content-Type: application/json' \
+      -d '{
+        "userinfo": "Cloud Engineer at VNG",
+        "name": "Cuong. Duong Manh"
+      }'
+    ```
 
 - See the Jaeger UI to check the tracing results [http://localhost:16686](http://localhost:16686):
   - The result of `fastapi-jaeger` service: 
