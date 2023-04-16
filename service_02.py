@@ -18,21 +18,21 @@ class UserInfo(BaseModel):
 
 
 @app.post("/foobar")
-async def foobar(user_info: UserInfo = Body(...), name: str = Body(..., )):
+async def foobar(userinfo: str = Body(...), name: str = Body(..., )):
     with tracer.start_as_current_span("foo"):
         with tracer.start_as_current_span("bar"):
             with tracer.start_as_current_span("baz"):
                 print("Hello world from OpenTelemetry Python!")
 
     return {
-        "message": f"Hello {user_info}, {name}"
+        "message": f"Hello {userinfo}, {name}"
     }
 
 
 @app.post("/foobar2")
-async def foobar2(user_info: UserInfo = Body(...), name: str = Body(..., )):
+async def foobar2(userinfo: str = Body(...), name: str = Body(..., )):
     return {
-        "message": f"Hello {user_info}, {name}"
+        "message": f"Hello {userinfo}, {name}"
     }
 
 
