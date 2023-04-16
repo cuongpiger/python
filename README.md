@@ -7,7 +7,7 @@
 ###### Guideline
 - Run the Jaeger in Docker container.
   ```bash
-  docker run --name jaeger -d -p6831:6831/udp -p16686:16686 jaegertracing/all-in-one:1.44
+  docker run --name jaeger -d -p 6831:6831/udp -p 16686:16686 jaegertracing/all-in-one:1.44
   ```
   
 - Prepare the Python environment.
