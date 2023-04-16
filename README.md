@@ -1,8 +1,8 @@
 ###### References
-- CSDN - [https://blog.csdn.net/weixin_36179862/article/details/123485035](https://blog.csdn.net/weixin_36179862/article/details/123485035)
+- CSDN - [https://blog.csdn.net/rgc_520_zyl/article/details/126710526](https://blog.csdn.net/rgc_520_zyl/article/details/126710526)
 
 ###### Brief
-- Using Open-Telemetry and Jaeger to tracing between microservices.
+- Using Open-Telemetry and Jaeger, Flask.
 
 ###### Guideline
 * Run Jaeger inside Docker container.
@@ -22,3 +22,22 @@
     -p 9411:9411 \
     jaegertracing/all-in-one:1.37
   ```
+
+* Create the Python virtual environment:
+  ```bash
+  conda create -n opentelemetry python=3.8 pip
+  ```
+  
+* Run the Flask application:
+  ```bash
+  python main.py
+  ```
+* Send the `curl` request:
+  ```bash
+  curl 0.0.0.0:8000/roll
+  ```
+  ![](./img/01.png)
+
+* Check the Jaeger UI to see the result:
+  ![](./img/02.png)
+  ![](./img/03.png)
