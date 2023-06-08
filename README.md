@@ -6,3 +6,4 @@
 |4|[jaeger-opentelemetry-cross-services](https://github.com/cuongpiger/python/tree/jaeger-opentelemetry-cross-services)|Using OpenTelemetry and Jaeger in microservices| `jaeger`, `opentelemetry`, `microservices`, `docker`, `tracing` |
 |5|[jaeger-opentelemetry](https://github.com/cuongpiger/python/tree/jaeger-opentelemetry)|Using OpenTelemetry and Jaeger, Flask to trace your requests| `jaeger`, `opentelemetry`, `tracing`, `flask`, `docker`         |
 |6|[lab/tox](https://github.com/cuongpiger/python/tree/lab/tox)|Using `tox` to test Python code| `tox`, `pytest`                                                  |
+|7|[lab/decorator](https://github.com/cuongpiger/python/tree/lab/decorator)|The demonstration of **decorator** in Python| `decorator`, `python`                                            |
