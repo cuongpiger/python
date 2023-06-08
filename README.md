@@ -2,7 +2,7 @@
 
 ###### Reference
 * [https://lynn-kwong.medium.com/understand-and-master-the-decorator-in-python-481aa444933f](https://lynn-kwong.medium.com/understand-and-master-the-decorator-in-python-481aa444933f)
-
+* [https://lynn-kwong.medium.com/how-to-decorate-classes-in-python-edf826196fbf](https://lynn-kwong.medium.com/how-to-decorate-classes-in-python-edf826196fbf)
 
 <hr>
 
