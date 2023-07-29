@@ -10,3 +10,4 @@
 |8|[lab/python-grpc](https://github.com/cuongpiger/python/tree/lab/python-grpc)|The demonstration of **gRPC** in Python| `grpc`, `python`|
 |9|[lab/selenium](https://github.com/cuongpiger/python/tree/lab/selenium)|The demonstration of **Selenium** in Python| `selenium`|
 |10|[app/kleantrans](https://github.com/cuongpiger/python/tree/app/kleantrans)|**Kleantrans** application|`app`|
+|11|[app/vocastudy-pyside2](https://github.com/cuongpiger/python/tree/app/vocastudy-pyside2)|**Vocastudy _(PySide2)_** application|`app`|
