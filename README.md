@@ -1,1 +1,4 @@
-This is an empty branch.
+##### [_Back to `main` branch_](https://github.com/cuongpiger/python)
+
+###### Brief
+* The simple demo of Jaeger tracing in Python.
