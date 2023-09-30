@@ -11,3 +11,4 @@
 |9|[lab/selenium](https://github.com/cuongpiger/python/tree/lab/selenium)|The demonstration of **Selenium** in Python| `selenium`, `data-crawling`|
 |10|[app/kleantrans](https://github.com/cuongpiger/python/tree/app/kleantrans)|**Kleantrans** application|`app`, `pyside2`|
 |11|[app/vocastudy-pyside2](https://github.com/cuongpiger/python/tree/app/vocastudy-pyside2)|**Vocastudy _(PySide2)_** application|`app`, `pyside2`|
+|12|[lab/os-messaging](https://github.com/cuongpiger/python/tree/lab/os-messaging)|**Lab**: Demo OpenStack `oslo.messaging`|`oslo.messaging`, `openstack`|
