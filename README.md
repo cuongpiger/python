@@ -14,7 +14,7 @@
 - Use `--help` option for more details.
 
 
-# 3. Running
+# 3. Demo RPC server
 - These examples assum you are runing the RabbitMQ broker on localhost port 5672.
 - To run the RabbitMQ server, using the below command, you also look at [this](https://x-team.com/blog/set-up-rabbitmq-with-docker-compose/#:~:text=Open%20a%20terminal%2C%20navigate%20to,to%20http%3A%2F%2Flocalhost%3A15672.).
   ```bash
@@ -26,7 +26,11 @@
   ./rpc-server --name Server01 
   ```
 
-- Run the `rpc-client`:
+- Run the `rpc-client`, it makes an RPC call to the `rpc-server`:
   ```bash
   ./rpc-client --method echo --kwargs "arg1=value1 arg2=value2"
   ```
+  
+  > ![](./img/01.png)
+
+# 4. Demo notification
