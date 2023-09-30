@@ -28,5 +28,5 @@
 
 - Run the `rpc-client`:
   ```bash
-  ./rpc-client --method echo --kwargs "arg1=value1 arg2=value2"i
+  ./rpc-client --method echo --kwargs "arg1=value1 arg2=value2"
   ```
