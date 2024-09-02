@@ -190,7 +190,7 @@ class MainWindow(QMainWindow):
             if text == "" or text[0] != '$': return
             
             text = text[1:]
-            text = re.sub("\s+", " ", re.sub(self.pattern, " ", text)).strip()
+            text = re.sub(r"\s+", " ", re.sub(self.pattern, " ", text)).strip()
             # self.raw_text.setPlainText(text)
             # text = self.raw_text.toPlainText()
 
